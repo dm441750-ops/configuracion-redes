@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sistema de Interacciones</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<h1>Sistema de Interacciones</h1>
+<nav>
+<button class="tab-btn" onclick="openTab('inicio')">Inicio</button>
+<button class="tab-btn" onclick="openTab('estadisticas')">Estadísticas</button>
+</nav>
+</header>
+
+
+<main>
+<!-- TAB INICIO -->
+<section id="inicio" class="tab active">
+<h2>Bienvenido</h2>
+<p>Interacciones disponibles:</p>
+
+
+<button class="action-btn" data-name="boton1">Botón 1</button>
+<button class="action-btn" data-name="boton2">Botón 2</button>
+<button class="action-btn" data-name="boton3">Botón 3</button>
+</section>
+
+
+<!-- TAB ESTADISTICAS -->
+<section id="estadisticas" class="tab">
+<h2>Estadísticas de Interacción</h2>
+<ul id="lista-estadisticas"></ul>
+</section>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
