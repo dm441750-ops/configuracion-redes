@@ -1,0 +1,112 @@
+/* ======= ESTILO GENERAL ======= */
+body {
+font-family: Arial, sans-serif;
+background: #eef1f5;
+margin: 0;
+padding: 0;
+}
+
+
+header {
+background: #1e88e5;
+color: #fff;
+padding: 20px;
+text-align: center;
+box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+
+h1 {
+margin: 0 0 10px;
+font-size: 1.8rem;
+}
+
+
+/* ======= NAV / TABS ======= */
+nav {
+margin-top: 10px;
+}
+
+
+.tab-btn {
+background: #fff;
+border: none;
+padding: 10px 20px;
+margin: 5px;
+border-radius: 6px;
+cursor: pointer;
+font-weight: bold;
+color: #1e88e5;
+transition: 0.3s;
+}
+
+
+.tab-btn:hover {
+background: #bbdefb;
+}
+
+
+/* ======= CONTENIDO DE TABS ======= */
+main {
+padding: 20px;
+}
+
+
+.tab {
+display: none;
+background: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+animation: fade 0.2s ease-in-out;
+}
+
+
+.tab.active {
+display: block;
+}
+
+
+@keyframes fade {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+
+
+/* ====== BOTONES DE ACCIONES ====== */
+.action-btn {
+display: block;
+width: 200px;
+padding: 12px;
+margin: 15px auto;
+border: none;
+background: #43a047;
+color: white;
+font-size: 16px;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+
+.action-btn:hover {
+background: #2e7d32;
+}
+
+
+/* ====== LISTA DE ESTADÍSTICAS ====== */
+#lista-estadisticas {
+list-style: none;
+padding: 0;
+}
+
+
+#lista-estadisticas li {
+background: #e3f2fd;
+margin: 10px 0;
+padding: 12px;
+border-radius: 5px;
+font-weight: bold;
+color: #1565c0;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
